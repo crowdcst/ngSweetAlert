@@ -1,6 +1,6 @@
 {
-  "name": "angular-sweetalert",
-  "version": "1.1.0",
+  "name": "angular-swal",
+  "version": "1.1.1",
   "description": "AngularJS wrapper for SweetAlert",
   "main": "SweetAlert.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oitozero/ngSweetAlert.git"
+    "url": "https://github.com/crowdcst/ngSweetAlert.git"
   },
   "keywords": [
     "angular",
@@ -17,16 +17,16 @@
     "sweet",
     "alert"
   ],
-  "author": "pedro@oitozero.com",
+  "author": "mcassagnes@gmail.com",
   "contributors": [
-    "gnick666@gmail.com"
+    "dylanjhaveri@gmail.com"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oitozero/ngSweetAlert/issues"
+    "url": "https://github.com/crowdcst/ngSweetAlert/issues"
   },
   "dependencies": {
-    "angular": "^1.3.14",
-    "sweetalert": "^0.4.2"
+    "angular": "1.5.9",
+    "sweetalert": "1.1.3"
   }
 }
