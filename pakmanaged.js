@@ -1440,10 +1440,16 @@ var global = Function("return this;")();
     , $ = require("ender")
     ;
   
-  import angular from 'angular'
+  /**
+    @fileOverview
     
-    const angularSwalModule = angular.module('angular-swal', [])
+    @toc
     
+    */
+    
+    'use strict';
+    
+    angular.module('angular-swal', [])
     .factory('SweetAlert', [ '$rootScope', function ( $rootScope ) {
     
     	var swal = window.swal;
@@ -1497,11 +1503,7 @@ var global = Function("return this;")();
     	};
     
     	return self;
-    }])
-    
-    .name
-    
-    export default angularSwalModule
+    }]);
     
   provide("angular-swal", module.exports);
 }(global));
